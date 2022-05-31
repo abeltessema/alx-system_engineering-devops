@@ -1,0 +1,2 @@
+#!/bin/bash
+find /etc/passwd | head -n /etc/passwd
