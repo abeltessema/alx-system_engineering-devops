@@ -1,2 +1,2 @@
 #!/bin/bash
-find /etc/passwd /etc/hosts | paste /etc/passwd  /etc/hosts
+find . -type f \(/etc/passwd -o /etc/hosts \) | cat /etc/passwd  /etc/hosts
